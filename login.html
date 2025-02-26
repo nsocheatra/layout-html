@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loginpage</title>
+    <title>Login Form</title>
     <link rel="stylesheet" href="assets/login.css">
 </head>
-
 <body>
-  <div>
-    <form action="#">
-        <h1>Login form</h1>
-        <div>
-            <nav>
-                <input type="submit" value="Login">
-                <input type="submit" value="Sign Up">
-            </nav>
-        </div>
-        <div>
-            <input type="text" placeholder="Enter username">
-            <input type="password"  placeholder="Enter password">
-            <input type="checkbox"><a href="http://#">Remember</a>
-            <a href="http://#">Forgot password?</a>
-        </div>
-
-    </form>
-  </div>
+            <form>
+                <h1>Login Form</h1>
+                <div> 
+                    <button  class="btn-login" type="submit">Login</button>
+                    <button class="btn-submit" type="submit">Signup</button>
+                </div>
+                <div class="form-group">
+                    <label for="user">Username</label>
+                    <input type="text" id="user" name="user" required placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter password">
+                </div>
+                <div class="forgot"><a href="#" class="forgot-password">Forgot password?</a></div>
+                <button class="ft-login" type="submit">Login</button>
+                <div class="footer"><p>Not a member? <a href="signup.html" class="signup-link">Signup now</a></p></div>
+            
+            </form>
+            
 </body>
-
 </html>
