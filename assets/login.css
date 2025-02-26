@@ -1,13 +1,102 @@
-form{
-    background-color: whitesmoke;
+body{
     margin: auto;
-    width: 350px;
-    align-content: center;
-    padding: 10px 10px;
-    display: block;
+    background-color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
-    justify-content: center;
-    align-items: center;
+body h1{
+    text-align: center;
+    color: skyblue;
+}
+form{
+    margin: auto;
+    width: 360px;
+    margin-top: 150px;
+    background-color:rgb(234, 241, 243);
+    padding: 20px 20px;
+}
+.btn-submit
+{
+    padding: 10px;
+    width: 178px;
+    border-radius: 4px;
+    background-color: skyblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-submit:hover{
+    background-color: rgb(180, 228, 247);
+    transition: 0.2s;
+    box-shadow: 2px 2px 5px rgb(166, 223, 245);
+}
+.btn-login
+{
+    padding: 10px;
+    width: 178px;
+    border-radius: 4px;
+    background-color: rgb(180, 228, 247);
+    border: none;
+    color: white;
+    /* cursor: pointer; */
+    font-size: 18px;
+}
+.btn-login:hover{
+    background-color: skyblue;
+    transition: 0.2s;
+    box-shadow: 2px 2px 5px rgb(166, 223, 245);
 }
 
+.form-group label {
+    padding-top: 20px;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 340px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group input:hover{
+    background-color: none;
+    border: 1px solid skyblue;
+}
+/* input [text:focus]{
+    background-color: none;
+    border: 1px solid skyblue;
+} */
+
+.forgot-password {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+button.ft-login{
+    width: 360px;
+    padding: 10px;
+    /* margin-left: 100px; */
+    background-color: skyblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+button.ft-login:hover{
+    background-color: rgb(180, 228, 247);
+    transition: 0.2s;
+    box-shadow: 2px 2px 5px rgb(104, 201, 236);
+}
+
+
+.footer{
+    margin-left: 100px;
+}
