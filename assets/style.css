@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px;
-    background-color: black;
-    color: yellow;
+    background-color: rgb(216, 237, 245);
+    color: black;
 }
 a {
     text-decoration: none;
@@ -19,16 +19,17 @@ nav {
     align-items: center;
     padding-right: 30px;
     margin: auto;
-    background-color: yellow;
+    background-color: skyblue;
     text-align: center;
 }
 nav a:hover{
-    background-color: black;
+    background-color: rgb(114, 208, 245);
     text-align: center;
-    border: solid black;
+    border: solid skyblue;
     width: 100px    ;
     padding: 10px 10px;
-    color: yellow;
+    color: blue;
+    font-size: 18px;
 }
 main {
     margin: auto;
@@ -43,15 +44,17 @@ div{
 }
 .button{
     border: 10px;
-    background: yellow;
+    background: rgb(60, 187, 238);
     font-style: italic;
     border-radius: 10px;
 }
 div.button:hover{
-    background-color: black;
-    border:1px solid yellow;
-    color: yellow;
-    transition: 0.5s;
+    background-color:skyblue;
+    border:none;
+    box-shadow: 2px 2px skyblue ;
+    color: black;
+    transition: 0.2s;
+    font-size: 18px;
 }
 .img {
     display: flex;
@@ -73,7 +76,7 @@ footer {
     position: fixed;
     bottom: 0;
     color: black;
-    background-color: yellow;
+    background-color: skyblue;
 }
 
 .footer-text {
